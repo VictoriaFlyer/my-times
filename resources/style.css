@@ -1,0 +1,27 @@
+/*HEADER*/
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: 2px solid black;
+  position: fixed;
+  width: 100%;
+}
+
+.header p {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center; 
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline-block;
+  color: black !important;
+  justify-content: space-around;
+}
