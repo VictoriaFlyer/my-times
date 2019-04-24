@@ -50,8 +50,8 @@ div {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  /*margin-bottom: 78px;*/
-  /*padding-top: 116px;*/
+  /**margin-bottom: 78px;**/
+  /**padding-top: 116px;**/ 
 }
 
 .column {
