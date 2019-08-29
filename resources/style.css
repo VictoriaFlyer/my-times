@@ -7,10 +7,10 @@ p {
 
 .image-content {
   display: flex;
-  font-family: Georgia;
+  /*font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  color: white;
+  color: white; */
 }
 /*HEADER*/
 header {
