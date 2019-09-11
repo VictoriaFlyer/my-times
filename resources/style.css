@@ -82,7 +82,7 @@ main div {
 }
 
 .lead-story .image-content {
-  background-image: url(./images/img-story-main.png);
+  background-image: url(./images/img-story-main.PNG);
   width: 630px;
   margin-top: auto;
   text-align: left;
@@ -90,11 +90,11 @@ main div {
 }
 
 .autumn.image-content{
-  background-image: url(./images/img-story-2.png);
+  background-image: url(./images/img-story-2.PNG);
 }
 
 .camera.image-content {
-  background-image: url(./images/img-story-3.png);
+  background-image: url(./images/img-story-3.PNG);
 }
 
 .story {
@@ -109,7 +109,7 @@ main div {
 }
 
 .cat.image-content {
-  background-image: url(./images/img-story-1.png);
+  background-image: url(./images/img-story-1.PNG);
   width:
 }
 
