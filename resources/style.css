@@ -1,6 +1,6 @@
 /*UNIVERSAL RULES*/
 p {
-  font-family: Goergia;
+  font-family: Georgia;
   font-size: 17px;
   color: black;
 }
@@ -9,11 +9,28 @@ p {
   height: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
+  margin-top: 15px;
 }
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  width: 630px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 /*HEADER*/
 header {
   display: flex;
@@ -52,9 +69,7 @@ nav span a {
 }
 
 /*MAIN*/
-main div {
-  border: 1px solid black;
-}
+
 
 .content {
   display: flex;
@@ -82,7 +97,7 @@ main div {
 }
 
 .lead-story .image-content {
-  background-image: url(./images/img-story-main.PNG);
+  background-image: url(./images/Img-story-main.PNG);
   width: 630px;
   margin-top: auto;
   text-align: left;
@@ -90,17 +105,11 @@ main div {
 }
 
 .autumn.image-content{
-  background-image: url(./images/img-story-2.PNG);
+  background-image: url(./images/Img-story-2.PNG);
 }
 
 .camera.image-content {
-  background-image: url(./images/img-story-3.PNG);
-}
-
-.story {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
+  background-image: url(./images/Img-story-3.PNG);
 }
 
 /*MEDIUM COLUMN*/
@@ -108,12 +117,52 @@ main div {
   width: 300px;
 }
 
-.cat.image-content {
-  background-image: url(./images/img-story-1.PNG);
-  width:
+.cat .image-content {
+  background-image: url(./images/Img-story-1.PNG);
 }
 
 /*SMALL COLUMN*/
 .column.small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 325px;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
