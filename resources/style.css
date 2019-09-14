@@ -97,19 +97,20 @@ nav span a {
 }
 
 .lead-story .image-content {
-  background-image: url(./images/Img-story-main.PNG);
+  background-image: url(./images/img-story-main.PNG);
   width: 630px;
   margin-top: auto;
   text-align: left;
   font-size: 40px;
+  padding-left: 25px;
 }
 
 .autumn.image-content{
-  background-image: url(./images/Img-story-2.PNG);
+  background-image: url(./images/img-story-2.PNG);
 }
 
 .camera.image-content {
-  background-image: url(./images/Img-story-3.PNG);
+  background-image: url(./images/img-story-3.PNG);
 }
 
 /*MEDIUM COLUMN*/
@@ -117,8 +118,8 @@ nav span a {
   width: 300px;
 }
 
-.cat .image-content {
-  background-image: url(./images/Img-story-1.PNG);
+.cat.image-content {
+  background-image: url(./images/img-story-1.PNG);
 }
 
 /*SMALL COLUMN*/
@@ -161,8 +162,16 @@ footer {
 }
 
 footer .title {
+  display: inline-block;
   font-family: Georgia;
   font-size: 16px;
   font-weight: bold;
   color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
